@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using EfTest.Data;
-using EfTest.Models;
+using EfCoreRazorCrud.Data;
+using EfCoreRazorCrud.Models;
 
-namespace EfTest.Admin.BookCrud
+namespace EfCoreRazorCrud.Admin.BookCrud
 {
     public class DeleteModel : PageModel
     {
-        private readonly EfTest.Data.ApplicationDbContext _context;
+        private readonly EfCoreRazorCrud.Data.ApplicationDbContext _context;
 
-        public DeleteModel(EfTest.Data.ApplicationDbContext context)
+        public DeleteModel(EfCoreRazorCrud.Data.ApplicationDbContext context)
         {
             _context = context;
         }

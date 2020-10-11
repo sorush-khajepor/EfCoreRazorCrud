@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using EfTest.Data;
-using EfTest.Models;
+using EfCoreRazorCrud.Data;
+using EfCoreRazorCrud.Models;
 
-namespace EfTest.Admin.PublisherCrud
+namespace EfCoreRazorCrud.Admin.PublisherCrud
 {
     public class IndexModel : PageModel
     {
-        private readonly EfTest.Data.ApplicationDbContext _context;
+        private readonly EfCoreRazorCrud.Data.ApplicationDbContext _context;
 
-        public IndexModel(EfTest.Data.ApplicationDbContext context)
+        public IndexModel(EfCoreRazorCrud.Data.ApplicationDbContext context)
         {
             _context = context;
         }

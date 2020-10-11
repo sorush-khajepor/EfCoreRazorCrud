@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfCoreRazorCrud.csproj": {}
+    "C:\\Users\\sorushkhajepor\\source\\repos\\EfCoreRazorCrud\\EfCoreRazorCrud\\EfCoreRazorCrud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfCoreRazorCrud.csproj": {
+    "C:\\Users\\sorushkhajepor\\source\\repos\\EfCoreRazorCrud\\EfCoreRazorCrud\\EfCoreRazorCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfCoreRazorCrud.csproj",
+        "projectUniqueName": "C:\\Users\\sorushkhajepor\\source\\repos\\EfCoreRazorCrud\\EfCoreRazorCrud\\EfCoreRazorCrud.csproj",
         "projectName": "EfCoreRazorCrud",
-        "projectPath": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfCoreRazorCrud.csproj",
+        "projectPath": "C:\\Users\\sorushkhajepor\\source\\repos\\EfCoreRazorCrud\\EfCoreRazorCrud\\EfCoreRazorCrud.csproj",
         "packagesPath": "C:\\Users\\sorushkhajepor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\obj\\",
+        "outputPath": "C:\\Users\\sorushkhajepor\\source\\repos\\EfCoreRazorCrud\\EfCoreRazorCrud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

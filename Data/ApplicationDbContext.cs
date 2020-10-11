@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using EfTest.Models;
+using EfCoreRazorCrud.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace EfTest.Data
+namespace EfCoreRazorCrud.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

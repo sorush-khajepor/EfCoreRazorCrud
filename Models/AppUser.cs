@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EfTest.Models
+namespace EfCoreRazorCrud.Models
 {
     public class AppUser : IdentityUser
     {

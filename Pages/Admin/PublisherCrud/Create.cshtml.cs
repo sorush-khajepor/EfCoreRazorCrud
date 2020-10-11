@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using EfTest.Data;
-using EfTest.Models;
+using EfCoreRazorCrud.Data;
+using EfCoreRazorCrud.Models;
 
-namespace EfTest.Admin.PublisherCrud
+namespace EfCoreRazorCrud.Admin.PublisherCrud
 {
     public class CreateModel : PageModel
     {
-        private readonly EfTest.Data.ApplicationDbContext _context;
+        private readonly EfCoreRazorCrud.Data.ApplicationDbContext _context;
 
-        public CreateModel(EfTest.Data.ApplicationDbContext context)
+        public CreateModel(EfCoreRazorCrud.Data.ApplicationDbContext context)
         {
             _context = context;
         }

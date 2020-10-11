@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using EfTest.Data;
-using EfTest.Models;
+using EfCoreRazorCrud.Data;
+using EfCoreRazorCrud.Models;
 
-namespace EfTest.Admin.BookCrud
+namespace EfCoreRazorCrud.Admin.BookCrud
 {
     public class EditModel : PageModel
     {
-        private readonly EfTest.Data.ApplicationDbContext _context;
+        private readonly EfCoreRazorCrud.Data.ApplicationDbContext _context;
 
-        public EditModel(EfTest.Data.ApplicationDbContext context)
+        public EditModel(EfCoreRazorCrud.Data.ApplicationDbContext context)
         {
             _context = context;
         }
