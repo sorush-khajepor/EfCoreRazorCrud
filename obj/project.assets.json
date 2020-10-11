@@ -8869,9 +8869,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfCoreRazorCrud.csproj",
-      "projectName": "EfCoreRazorCrud",
-      "projectPath": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfCoreRazorCrud.csproj",
+      "projectUniqueName": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfTest.csproj",
+      "projectName": "EfTest",
+      "projectPath": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\EfTest.csproj",
       "packagesPath": "C:\\Users\\sorushkhajepor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sorushkhajepor\\source\\repos\\EfTest\\EfTest\\obj\\",
       "projectStyle": "PackageReference",
